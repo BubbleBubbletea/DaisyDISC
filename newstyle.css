@@ -1,0 +1,134 @@
+body{
+    margin: 0px;
+    background-color: #9A74D3;
+    
+  }
+  .topbar ul{
+    background-color: #4E2A84;
+    color: white;
+    list-style-type: none;
+    padding: 0px;
+    margin-top: 0px;
+    
+    overflow: hidden;
+  }
+  .topbar a{
+    color:white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+  }
+  .topbar li{
+    float: left;
+  }
+  
+  ul: hover{
+    background-color: red; opacity: 0.9;
+  }
+  .wildcat-pic{
+    max-width: 100px;
+      max-height: 100px;
+      display: inline;
+  }
+  
+  .small-pic{
+    max-height: 50px;
+    position: absolute;
+    right: 0;
+  }
+  
+  
+  .container{
+    display:grid;
+    grid-template-rows:auto;
+    grid-template-columns: 1fr 3fr 1fr;  
+    background-color: #4E2A84;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+    color:white;
+  
+  }
+  
+  .item-1{
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 1;
+    grid-column-end: 1;
+  }
+  .item-3{
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start:7;
+    grid-column-start:7;
+    
+  }
+  .item-2{
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 2;
+    grid-column-end: 7;
+    text-align: center;
+    border-radius: 10px;
+    font: 
+  
+  }
+  
+  .container2{
+    margin-top:5px;
+    display:grid;
+    grid-template-rows:1fr 1fr 1fr;
+    grid-template-columns:auto;  
+    
+    gap: 10px;
+    align-items: center;
+    text-align: left;
+    color:white;
+  }
+  
+  .STEM-Group{
+    color:#4E2A84;
+    background-image: url("https://post.medicalnewstoday.com/wp-content/uploads/sites/3/2018/10/stem-cells.jpg");
+    
+  }
+  
+  #botton-1 {
+    
+    background-color: #4E2A84;
+    color:white;
+    box-shadow: 0px 0px 2px 2px rgb(0,0,0);
+    padding:10px;
+    min-height: 20px; 
+    min-width: 80px;
+  }
+  
+  .Humanity-Group{
+    background-image: url("https://assets1.ignimgs.com/2019/09/24/humanity---button-01a-1569360342834.jpg?width=300&crop=1%3A1%2Csmart&auto=webp&dpr=2");
+    background-position:center bottom;
+    color:white;
+  }
+  #botton-2 {
+    
+    background-color: white;
+    color:#4E2A84;
+    box-shadow: 0px 0px 2px 2px rgb(250,250,250);
+    padding:10px;
+    min-height: 20px; 
+    min-width: 80px;
+  }
+  
+  .Art-Group {
+    background-image: url("https://www.music.northwestern.edu/sites/default/files/2017-11/Chamber_Music2.jpg");
+    background-position:center center;
+    color:#4E2A84;
+  }
+  
+  #botton-3{
+    background-color: #4E2A84;
+    color:white;
+    box-shadow: 0px 0px 2px 2px rgb(0,0,0);
+    padding:10px;
+    min-height: 20px; 
+    min-width: 80px;
+  }
